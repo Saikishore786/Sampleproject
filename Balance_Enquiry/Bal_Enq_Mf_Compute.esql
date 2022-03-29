@@ -20,7 +20,7 @@ CREATE COMPUTE MODULE Bal_Enq_Mf_Compute
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
 	
-		DECLARE B CHARACTER 'This Page is for Balance Enquiry';
+		DECLARE B CHARACTER 'This Page is for Balance Enquiry Details';
 		SET OutputRoot.JSON.Data.Result = B;
 	END;
 END MODULE;
